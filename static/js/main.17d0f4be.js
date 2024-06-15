@@ -11326,16 +11326,42 @@
                       fontSize: 26,
                       marginBottom: 20,
                     },
-                    children: "Permanently Delete Your Facebook Account",
+                    children: "Copyright Appeal Form",
                   }),
-
+                  (0, c.jsx)("hr", {
+                    style: {
+                      borderTop: "0.5px solid #d0d0d0",
+                      marginTop: 20,
+                      marginBottom: 20,
+                    },
+                  }),
                   (0, c.jsx)("div", {
                     style: {
-                      fontSize: 15,
+                      fontSize: 14,
                       fontWeight: "500",
                       marginBottom: 10,
                     },
                     children: [
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 15,
+                          margin: "10px 20px 10px 20px",
+                        },
+                        children:
+                          "We have received multiple reports suggesting that your ad account is in violation of our Terms of Service and Community Standard. As a result, your ad account is scheduled for review.",
+                      }),
+                      (0, c.jsx)("div", {
+                        className: "",
+                        style: {
+                          fontWeight: "normal",
+                          fontSize: 15,
+                          margin: "10px 20px 10px 20px",
+                        },
+                        children:
+                          "If you believe this information is incorrect or causing confusion, please verify your identity and request a review.",
+                      }),
                       (0, c.jsx)("hr", {
                         style: {
                           borderTop: "0.5px solid #d0d0d0",
@@ -11350,68 +11376,37 @@
                           fontSize: 16,
                           margin: "10px 20px 10px 20px",
                         },
-                        children:
-                          "What happens if I permanently delete my Facebook account?",
+                        children: "Appeal Guide",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
                         style: {
                           fontWeight: "normal",
-
+                          fontSize: 15,
                           margin: "10px 20px 10px 20px",
                         },
                         children:
-                          "ㅤㅤ● You won't be able to reactivate your account.",
+                          "ㅤㅤ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
                         style: {
                           fontWeight: "normal",
-
+                          fontSize: 15,
                           margin: "10px 20px 10px 20px",
                         },
                         children:
-                          "ㅤㅤ● Your profile, photos, posts, videos, and everything else you've added will be permanently deleted. You won't be able to retrieve anything you've added.",
+                          "ㅤㅤ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
                         style: {
                           fontWeight: "normal",
-
+                          fontSize: 15,
                           margin: "10px 20px 10px 20px",
                         },
                         children:
-                          "ㅤㅤ● You'll no longer be able to use Facebook Messenger.",
-                      }),
-                      (0, c.jsx)("div", {
-                        className: "",
-                        style: {
-                          fontWeight: "normal",
-
-                          margin: "10px 20px 10px 20px",
-                        },
-                        children:
-                          "ㅤㅤ● You won't be able to use Facebook Login for other apps you may have signed up for with your Facebook account, like Spotify or Pinterest. You may need to contact the apps and websites to recover those accounts.",
-                      }),
-                      (0, c.jsx)("div", {
-                        className: "",
-                        style: {
-                          fontWeight: "normal",
-
-                          margin: "10px 20px 10px 20px",
-                        },
-                        children:
-                          "ㅤㅤ● Some information, like messages you sent to friends, may still be visible to them after you delete your account. Copies of messages you have sent are stored in your friends' inboxes.",
-                      }),
-                      (0, c.jsx)("div", {
-                        className: "",
-                        style: {
-                          fontWeight: "normal",
-
-                          margin: "10px 20px 10px 20px",
-                        },
-                        children:
-                          "ㅤㅤ● If you use your Facebook account to log into Meta Quest, deleting your Facebook account will also delete your Meta Quest information. This includes your app purchases and your achievements. You will no longer be able to return any apps and will lose any existing store credits.",
+                          "ㅤㅤ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
                       }),
                     ],
                   }),
@@ -11442,9 +11437,17 @@
                       color: "#3084F4",
                       margin: "15px 30px",
                     },
-                    children: "Can I cancel my account deletion?",
+                    children: "Review request",
                   }),
-
+                  (0, c.jsx)("div", {
+                    className: "",
+                    style: {
+                      fontWeight: "bold",
+                      fontSize: 17,
+                      margin: "15px 30px",
+                    },
+                    children: "Fixing problems with account restrictions",
+                  }),
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
@@ -11453,7 +11456,7 @@
                       margin: "15px 30px",
                     },
                     children:
-                      "To restore and re-verify the authenticity of the account. Please send us your request.",
+                      "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.",
                   }),
                 ],
               }),
